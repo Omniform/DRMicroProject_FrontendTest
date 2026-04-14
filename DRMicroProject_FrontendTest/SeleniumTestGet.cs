@@ -35,7 +35,7 @@ namespace DRMicroProject_FrontendTest
         public void AlbumsAreDisplayedOnPage()
         {
             // Configure the URL of the app under test via environment or change the default below.
-            var baseUrl = Environment.GetEnvironmentVariable("C:\\Users\\Bruger\\source\\repos\\DRMicroProject_Frontend");
+            var baseUrl = "file:///C:/Users/Bruger/source/repos/DRMicroProject_Frontend/index.html";
             _output.WriteLine($"Navigating to: {baseUrl}");
             _driver.Navigate().GoToUrl(baseUrl);
 
